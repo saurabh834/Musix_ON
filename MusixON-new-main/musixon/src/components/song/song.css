@@ -1,0 +1,104 @@
+/* *{
+    color: whitesmoke;
+} */
+.first
+{
+    /* background-image: url(./bg.jfif);  */
+    background: url(../first/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: full;
+    padding: 4px ;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+   
+    
+}
+.firstsecond
+{
+   
+    width: full;
+    
+    padding: 13px 13px;
+    /* -ms-flex-align: center; */
+     text-align: center;
+    align-items: center;
+    flex-direction: column;
+   justify-items: center;
+   gap: 20;
+}
+.second{
+position: relative;
+width: full;
+display: flex;
+ direction: row ;
+margin-top: 4px;
+margin-bottom: 4px;
+padding: 4px;
+border:1pt solid;
+border-color: gray;
+border-radius: 90rem;
+
+}
+.secondfirst
+{
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.third
+{
+    width: full;
+   display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.songcard
+{
+color: whitesmoke;
+/* border: 2px solid black; */
+padding: 10px 10px;
+}
+.songcontainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+height :100vh;
+position: relative;
+}
+.image{
+    width: 250px;
+    height: 175px;
+   
+}
+.song-details{
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+.firstsecond input{
+    padding: 8px 8px;
+    
+    width: 25%;
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+} 
+button{
+      color: red;
+      margin-left: 10px;
+      margin-right: 10px;
+      border :none;
+      background-color: black ;
+      transition: all 0.5s;
+  }
+  button:hover{
+      transform: translateY(-5px);
+  }
+  .one{
+    position: relative;
+  }
